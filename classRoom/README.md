@@ -2,4 +2,4 @@
 
 Room EEE123 at Penn State, University Park, PA, USA.  
 
-![](images/1.png =200x)
+<img src="images/1.png " alt="drawing" style="width: 200px;"/>
