@@ -1,0 +1,53 @@
+!xform ./skies/CHICAGO_IL_USA_TMY294846_1108_1330.sky 
+!xform ./materials.rad
+
+
+DeskWood mesh DeskWood_obj
+1 ./objects/DeskWood.rtm
+0
+0
+
+DeskLegs mesh DeskLegs_obj
+1 ./objects/DeskLegs.rtm
+0
+0
+
+Chair mesh Chair_obj
+1 ./objects/Chair.rtm
+0
+0
+
+ChairSurface mesh ChairSurface_obj
+1 ./objects/ChairSurface.rtm
+0
+0
+
+Stone_Flagstone_Ashlar mesh Stone_Flagstone_Ashlar_obj
+1 ./objects/Stone_Flagstone_Ashlar.rtm
+0
+0
+!xform ./objects/sketchup_default_material.rad
+!xform ./objects/Glazing.rad
+!xform ./objects/Mullions.rad
+
+Floor mesh Floor_obj
+1 ./objects/Floor.rtm
+0
+0
+!xform ./objects/Blackboard.rad
+!xform ./objects/BlackboardOuter.rad
+
+ceiling mesh ceiling_obj
+1 ./objects/ceiling.rtm
+0
+0
+
+Door mesh Door_obj
+1 ./objects/Door.rtm
+0
+0
+
+Ground mesh Ground_obj
+1 ./objects/Ground.rtm
+0
+0

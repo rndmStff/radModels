@@ -1,0 +1,35 @@
+# scene options file for rad
+
+QUALITY=     medium
+DETAIL=      medium
+VARIABILITY= high
+INDIRECT=    2
+PENUMBRAS=   true
+
+PICTURE=     images/roomnew
+RESOLUTION=  1632 903
+ZONE=        exterior 0 87.3 0 87.3 0 87.3
+EXPOSURE=    -2
+
+REPORT=      0 logfiles/Scene_3.log
+AMBFILE=     ambfiles/Scene_3.amb
+OCTREE=      octrees/Scene_3.oct
+scene=       Scene_3.rad
+
+render=      
+
+oconv=      -w
+
+materials=    materials.rad
+
+view=  Scene_1 -vf ./views/Scene_1.vf
+view=  Scene_3 -vf ./views/Scene_3.vf
+# view=  Scene_2 -vf ./views/Scene_2.vf
+
+objects=	./skies/CHICAGO_IL_USA_TMY294846_1108_1330.sky
+## scene object files (total=14)
+objects=	./objects/Blackboard.rad	./objects/BlackboardOuter.rad	./objects/Glazing.rad
+objects=	./objects/Mullions.rad	./objects/sketchup_default_material.rad	./objects/ceiling.rtm
+objects=	./objects/Chair.rtm	./objects/ChairSurface.rtm	./objects/DeskLegs.rtm
+objects=	./objects/DeskWood.rtm	./objects/Door.rtm	./objects/Floor.rtm
+objects=	./objects/Ground.rtm	./objects/Stone_Flagstone_Ashlar.rtm

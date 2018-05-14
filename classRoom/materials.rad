@@ -1,0 +1,142 @@
+## materials.rad
+
+## default material
+void plastic sketchup_default_material
+0
+0
+5 0.4 0.4 0.4 0 0
+
+## material conversion from Sketchup rgb color
+void plastic Blackboard
+0
+0
+5 0.1933 0.1933 0.1933 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic BlackboardOuter
+0
+0
+5 0.6600 0.6600 0.6600 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Chair_tex
+7 red green blue textures/Brick_Tumbled.pic . frac(Lu) frac(Lv)
+0
+0
+Chair_tex plastic Chair
+0
+0
+5 0.4500 0.4400 0.4400 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict ChairSurface_tex
+7 red green blue textures/Brick_Basket_Two.pic . frac(Lu) frac(Lv)
+0
+0
+ChairSurface_tex plastic ChairSurface
+0
+0
+5 0.7667 0.5200 0.5067 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict DeskLegs_tex
+7 red green blue textures/Carpet_Berber_Pattern_Gray.pic . frac(Lu) frac(Lv)
+0
+0
+DeskLegs_tex plastic DeskLegs
+0
+0
+5 0.5500 0.5500 0.5500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict DeskWood_tex
+7 red green blue textures/Carpet_Diamond_Olive.pic . frac(Lu) frac(Lv)
+0
+0
+DeskWood_tex plastic DeskWood
+0
+0
+5 0.2900 0.2567 0.2033 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Door_tex
+7 red green blue textures/Wood_Cherry_Original.pic . frac(Lu) frac(Lv)
+0
+0
+Door_tex plastic Door
+0
+0
+5 0.5067 0.2867 0.1400 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Floor_tex
+7 red green blue textures/Stone_Masonry_Multi.pic . frac(Lu) frac(Lv)
+0
+0
+Floor_tex plastic Floor
+0
+0
+5 0.6067 0.5833 0.5467 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void trans Glazing
+0
+0
+7 0.3333 0.4967 0.7900 0.000 0.000 0.500 0.200
+
+
+## material conversion from Sketchup rgb color
+void colorpict Ground_tex
+7 red green blue textures/Groundcover_Brick_Crushed.pic . frac(Lu) frac(Lv)
+0
+0
+Ground_tex plastic Ground
+0
+0
+5 0.5167 0.2933 0.2600 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Mullions
+0
+0
+5 0.6800 0.1333 0.1333 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Stone_Flagstone_Ashlar_tex
+7 red green blue textures/Stone_Flagstone_Ashlar.pic . frac(Lu) frac(Lv)
+0
+0
+Stone_Flagstone_Ashlar_tex plastic Stone_Flagstone_Ashlar
+0
+0
+5 0.5767 0.3867 0.3367 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict ceiling_tex
+7 red green blue textures/Stone_Coursed_Rough.pic . frac(Lu) frac(Lv)
+0
+0
+ceiling_tex plastic ceiling
+0
+0
+5 0.5467 0.5333 0.4267 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic sketchup_default_material
+0
+0
+5 0.3400 0.3400 0.3400 0.000 0.000
+
+

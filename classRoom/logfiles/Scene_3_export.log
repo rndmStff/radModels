@@ -1,0 +1,462 @@
+###  su2rad.rb export  ###
+###  Mon May 14 11:29:44 2018  ###
+[D] ExportOptions.initialize()
+[V] loading export options from attribute
+[D] setSketchup()
+[D] setExportOptions() ...
+[V] 'replmarks' found => keeping 'global coords' options
+[V] 'convert' found => keeping 'textures' options
+[D] setRenderOptions() ...
+[D] SketchupViewsList: setting views list ...
+[D] setSkyOptions() ...
+[I] mList rad: setting materials 0 to 200
+[I] mList rad: setting materials 200 to 203
+[I] mList skm: setting materials 0 to 14
+[I] mList layer: setting materials 0 to 8
+[I] Tbleicher::Su2Rad::WebOptionsExport new value for @scenePath: 'C:/Users/Sarith/Desktop/skp/classRoom/'
+[D] updating view 'Scene 1'
+[V] view 'Scene 1': new value for 'selected' = 'true'
+[V] view 'Scene 1': new value for 'vo' = '0.0000'
+[V] view 'Scene 1': new value for 'va' = '0.0000'
+[I] Tbleicher::Su2Rad::WebOptionsExport new value for @textures: true
+[V] TODO: webdialog closed
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/octrees'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/images'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/logfiles'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/ambfiles'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/./skies'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./skies/CHICAGO_IL_USA_TMY294846_1108_1330.sky'
+[I] 
+[I] OBJECTS:
+[I] RadComponent: '' [def='Furniture']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683380'
+[I] new alias name 'Furniture_material' for material 'sketchup_default_material'
+[I] parenttrans = entity.transformation
+[I] RadComponent: '' [def='Component#1']
+[I] begin export Sketchup::ComponentInstance name='' id='812715556580'
+[I] new alias name 'Component1_material' for material 'sketchup_default_material'
+[I] parenttrans = entity.transformation
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/textures'
+[D] converting texture 'Carpet_Diamond_Olive.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Diamond_Olive.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Diamond_Olive.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Carpet_Diamond_Olive.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Diamond_Olive.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Diamond_Olive.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Carpet_Diamond_Olive.pic')
+[D] converting texture 'Carpet_Berber_Pattern_Gray.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Berber_Pattern_Gray.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Berber_Pattern_Gray.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Carpet_Berber_Pattern_Gray.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Berber_Pattern_Gray.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Carpet_Berber_Pattern_Gray.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Carpet_Berber_Pattern_Gray.pic')
+[V] exported entities [refs=0, faces=110]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#1']
+[I] begin export Sketchup::ComponentInstance name='' id='812681568960'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=110]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#1']
+[I] begin export Sketchup::ComponentInstance name='' id='812718417320'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=110]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#1']
+[I] begin export Sketchup::ComponentInstance name='' id='812717761600'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=110]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#1']
+[I] begin export Sketchup::ComponentInstance name='' id='812797526640'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=110]
+[I] end export Sketchup::ComponentInstance name=''
+[V] exported entities [refs=5, faces=30]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683320'
+[I] new alias name 'Component2_material' for material 'sketchup_default_material'
+[I] parenttrans = entity.transformation
+[D] converting texture 'Brick_Tumbled.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Tumbled.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Tumbled.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Brick_Tumbled.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Tumbled.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Tumbled.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Brick_Tumbled.pic')
+[D] converting texture 'Brick_Basket_Two.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Basket_Two.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Basket_Two.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Brick_Basket_Two.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Basket_Two.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Brick_Basket_Two.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Brick_Basket_Two.pic')
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[V] group: ''
+[I] begin export Sketchup::Group name='' id='812718683260'
+[I] parenttrans = entity.transformation
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811793399620'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812800580720'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811833983060'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811798946220'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811797338220'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811794212300'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811810106060'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811799704660'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[V] exported entities [refs=8, faces=0]
+[I] end export Sketchup::Group name=''
+[V] group: ''
+[I] begin export Sketchup::Group name='' id='812718683220'
+[I] parenttrans = entity.transformation
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811837005640'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811805546180'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811809773900'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811826388060'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811883826180'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811871320480'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811818397700'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811893426060'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[V] exported entities [refs=8, faces=0]
+[I] end export Sketchup::Group name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683180'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683140'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683100'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683060'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718683020'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682980'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682940'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682900'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682860'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682820'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682780'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682740'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682700'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682660'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682620'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='812718682580'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[V] group: ''
+[I] begin export Sketchup::Group name='' id='812718682540'
+[I] parenttrans = entity.transformation
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811846539480'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811915201180'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811898112260'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811832900140'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811843847720'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811896611420'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811916361680'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[I] RadComponent: '' [def='Component#2']
+[I] begin export Sketchup::ComponentInstance name='' id='811879762820'
+[I] parenttrans = entity.transformation
+[V] exported entities [refs=0, faces=2929]
+[I] end export Sketchup::ComponentInstance name=''
+[V] exported entities [refs=8, faces=0]
+[I] end export Sketchup::Group name=''
+[D] converting texture 'Stone_Flagstone_Ashlar.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Flagstone_Ashlar.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Flagstone_Ashlar.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Flagstone_Ashlar.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Flagstone_Ashlar.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Flagstone_Ashlar.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Flagstone_Ashlar.pic')
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] converting texture 'Stone_Masonry_Multi.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Masonry_Multi.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Masonry_Multi.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Masonry_Multi.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Masonry_Multi.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Masonry_Multi.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Masonry_Multi.pic')
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'BlackboardOuter' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9a738>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] converting texture 'Stone_Coursed_Rough.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Coursed_Rough.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Coursed_Rough.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Coursed_Rough.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Coursed_Rough.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Stone_Coursed_Rough.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Stone_Coursed_Rough.pic')
+[D] WARNING: front vs. back material: 'Door' - 'Stone_Flagstone_Ashlar'
+[D] converting texture 'Wood_Cherry_Original.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Wood_Cherry_Original.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Wood_Cherry_Original.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Wood_Cherry_Original.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Wood_Cherry_Original.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Wood_Cherry_Original.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Wood_Cherry_Original.pic')
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9a288>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Door' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9a288>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Door' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9a288>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] WARNING: front vs. back material: 'Mullions' - 'Stone_Flagstone_Ashlar'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00017a73a9b098>' - '#<Sketchup::Material:0x00017a73a9b228>'
+[D] converting texture 'Groundcover_Brick_Crushed.jpg' ...
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\convert.exe" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Groundcover_Brick_Crushed.jpg" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Groundcover_Brick_Crushed.ppm"
+[3]  => result= true
+[D] texture converted to *.ppm ('C:/Users/Sarith/Desktop/skp/classRoom/textures/Groundcover_Brick_Crushed.ppm')
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\ra_ppm.exe" -r "C:\Users\Sarith\Desktop\skp\classRoom\textures\Groundcover_Brick_Crushed.ppm" "C:\Users\Sarith\Desktop\skp\classRoom\textures\Groundcover_Brick_Crushed.pic"
+[3]  => result= true
+[D] texture converted to *.pic (path='C:/Users/Sarith/Desktop/skp/classRoom/textures/Groundcover_Brick_Crushed.pic')
+[V] exported entities [refs=21, faces=239]
+[I] 
+[I] SCENEFILES:
+[D] material='#<Sketchup::Material:0x00017a73a99568>' texture='#<Sketchup::Texture:0x00017a733b6890>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/DeskWood.obj'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/./objects'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/DeskWood.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\DeskWood.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\DeskWood.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a99900>' texture='#<Sketchup::Texture:0x00017a739aae68>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/DeskLegs.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/DeskLegs.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\DeskLegs.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\DeskLegs.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a98ff0>' texture='#<Sketchup::Texture:0x00017a739b3770>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Chair.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Chair.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Chair.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Chair.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a98e60>' texture='#<Sketchup::Texture:0x00017a739715a0>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/ChairSurface.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/ChairSurface.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\ChairSurface.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\ChairSurface.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a9b228>' texture='#<Sketchup::Texture:0x00017a0c09edb8>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Stone_Flagstone_Ashlar.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Stone_Flagstone_Ashlar.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Stone_Flagstone_Ashlar.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Stone_Flagstone_Ashlar.rtm"
+[3]  => result= true
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/sketchup_default_material.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Glazing.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Mullions.rad'
+[D] material='#<Sketchup::Material:0x00017a73a9ac60>' texture='#<Sketchup::Texture:0x00017a0a6b5c80>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Floor.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Floor.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Floor.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Floor.rtm"
+[3]  => result= true
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Blackboard.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/BlackboardOuter.rad'
+[D] material='#<Sketchup::Material:0x00017a73a9a4b8>' texture='#<Sketchup::Texture:0x00017a15ba9998>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/ceiling.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/ceiling.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\ceiling.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\ceiling.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a9a288>' texture='#<Sketchup::Texture:0x00017a108ae3b0>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Door.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Door.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Door.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Door.rtm"
+[3]  => result= true
+[D] material='#<Sketchup::Material:0x00017a73a99ef0>' texture='#<Sketchup::Texture:0x00017a1e67a9f0>'
+[I] creating obj file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Ground.obj'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./objects/Ground.obj'
+[3] system cmd= "C:\Users\Sarith\AppData\Roaming\SketchUp\SketchUp 2018\SketchUp\Plugins\su2radlib\bin\WIN\obj2mesh.exe" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Ground.obj" "C:\Users\Sarith\Desktop\skp\classRoom\.\objects\Ground.rtm"
+[3]  => result= true
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/Scene_3.rad'
+[I] 
+[I] MATERIALS:
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a99568>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a99900>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a98ff0>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a98e60>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a9b228>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a9ac60>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a9a4b8>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a9a288>'
+[D] creating texture material for '#<Sketchup::Material:0x00017a73a99ef0>'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/materials.rad'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/classRoom/./views'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./views/Scene_1.vf'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./views/Scene_3.vf'
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/./views/Scene_2.vf'
+[3] XXX object file: .
+[3] XXX object file: ..
+[3] XXX object file: ceiling.obj
+[3] XXX object file: Chair.obj
+[3] XXX object file: ChairSurface.obj
+[3] XXX object file: DeskLegs.obj
+[3] XXX object file: DeskWood.obj
+[3] XXX object file: Door.obj
+[3] XXX object file: Floor.obj
+[3] XXX object file: Ground.obj
+[3] XXX object file: Stone_Flagstone_Ashlar.obj
+[V] created file 'C:/Users/Sarith/Desktop/skp/classRoom/Scene_3.rif'
+###  finished: 2018-05-14 11:31:36 +0200  ###
+###  status: running (groups=50, faces=120908)  ###
