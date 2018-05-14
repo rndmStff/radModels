@@ -1,0 +1,18 @@
+void colorpict dancepic
+15 red green blue ./pics/dance.pic picture.cal pic_u pic_v  -s 0.64 -t 0.0 0.0 0.0 -rx 0
+0
+1 1
+
+dancepic plastic pntdance
+0
+0
+5 0.7 0.7 0.7 0.1 0.02
+
+pntdance polygon dance
+0 
+0
+12
+0 0 0
+.9144 0 0
+0.9144 0.6299 0
+0 .6299 0

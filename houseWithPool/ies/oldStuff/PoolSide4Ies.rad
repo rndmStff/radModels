@@ -1,0 +1,18 @@
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+
+
+# replmarks -x 40Down.rad PoolSide4
+
+!xform -n f_16_0 -ry -90.000000 -rz -90.000000 -t 5.415558 18.975725 -0.293257 ./40Down.rad
+
+!xform -n f_17_0 -ry -90.000000 -rz -90.000000 -t 8.281789 18.975725 -0.293257 ./40Down.rad
+
+!xform -n f_18_0 -ry -90.000000 -rz -90.000000 -t 9.714905 18.975725 -0.293257 ./40Down.rad
+
+!xform -n f_19_0 -ry -90.000000 -rz -90.000000 -t 6.848674 18.975725 -0.293257 ./40Down.rad
+
+!xform -n f_20_0 -ry -90.000000 -rz -90.000000 -t 11.148021 18.975725 -0.293257 ./40Down.rad

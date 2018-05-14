@@ -1,0 +1,485 @@
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:23:46: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:23:46: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:23:46: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+
+
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:29: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:29: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:29: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:01: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:01: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:22:01: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:20:15: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:20:15: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:20:15: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:53: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:53: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:53: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:38: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:38: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:18:38: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:17:54: Changed the absolute pathF:/GoogleDrive2/Courses/Fall14/AE562/HW7/RoomNight_safe/pics/motif.pic to relative. New value:pics\motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:17:54: Changed the \ to / for pics\motif.pic. New value:pics/motif.pic
+
+#CHANGES/CORRECTIONS(radcheck): Sep/27 17:17:54: Added ./ in the beginning to pics\motif.pic. New value:./pics/motif.pic
+
+## materials.rad
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BrickWall~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#brick pattern
+
+void  brightfunc  brkptnbright
+6  brick_xy brick.cal -rx 0 -ry 0
+0
+6  0.03 0.143 0.38 2.0 0.05 0.025
+
+#texture brkptnbright texfunc brkptn
+
+brkptnbright  texfunc  brkptn
+8  brick_x brick_y brick_xy brick.cal -rx 0 -ry 0
+0
+6  0.03 0.143 0.38 2.0 0.05 0.025
+
+brkptnbright  plastic  BrickWall
+0  
+0
+5  0.4 0.13 0.05 0.0 0.15
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BrickWall~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Carpet~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+void  brightfunc  dustcarpet
+4  dirt dirt.cal -s 0.5
+0
+1  0.15
+
+dustcarpet  colorpict  Carpetpat
+9  red green blue ./pics/motif.pic picture.cal tile_u tile_v -s 0.8
+0
+1  1.0
+
+## material conversion from Sketchup rgb color
+
+Carpetpat  plastic  Carpet
+0  
+0
+5  0.8 0.8 0.8 0.0 0.0
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Carpet~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ceiling~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  brightfunc  dustceiling
+4  dirt dirt.cal -s 0.5
+0
+1  0.15
+
+dustceiling  colorpict  Ceilingpat
+9  red green blue ././pics/ceilingpat2.pic picture.cal tile_u tile_v -s 18.288
+0
+1  1.0
+
+Ceilingpat  plastic  Ceiling
+0  
+0
+5  0.8533 0.8533 0.8533 0.0 0.0
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ceiling~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Glazing~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  glass  Glazing
+0  
+0
+3  0.666 0.666 0.666
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Glazing~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  metal  Gold
+0  
+0
+5  0.803 0.499 0.19 0.99 0.15
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ground~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  plastic  Ground
+0  
+0
+5  0.2 0.2 0.2 0.0 0.2
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ground~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoatVert~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  colorpict  Moatpatvert
+13  red green blue ././pics/tajmotif.pic picture.cal tile_u tile_v -s 0.33 -rx 90 -ry 90
+0
+1  1.0
+
+Moatpatvert  plastic  MarbleMoatVert
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoatVert~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoatVert2~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  colorpict  Moatpatvert2
+11  red green blue ././pics/tajmotif.pic picture.cal tile_u tile_v -s 0.33 -ry 90
+0
+1  1.0
+
+Moatpatvert2  plastic  MarbleMoatVert2
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoatVert~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoat~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  colorpict  Moatpat
+9  red green blue ././pics/tajmotif.pic picture.cal tile_u tile_v -s 0.33
+0
+1  1.0
+
+Moatpat  plastic  Marble_Moat
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MarbleMoat~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Marblefloor~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+void  colorpict  floor
+9  red green blue ././pics/tile.pic picture.cal tile_u tile_v -s 5
+0
+1  1.0
+
+floor  plastic  Marble_Floor
+0  
+0
+5  0.3 0.3 0.3 0.0 0.1
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Marblefloor~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Marblefloorvert~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  plastic  Marble_FloorVert
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Marblefloorvert~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TajFloorMarble~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  plastic  TajFloorMarble
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TajFloorMarble~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Water~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  texfunc  waves
+6  xwrink ywrink zwrink wrinkle.cal -s 20.5
+0
+3  0.2 0.2 0.1
+
+waves  dielectric  Water
+0  
+0
+5  0.6 0.6 0.6 1.33 0.0
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Water~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Wood~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+void  brightfunc  woodpat
+4  zgrain woodpat.cal -s 0.07
+0
+1  0.01
+
+woodpat  colorpict  woodpic
+11  red green blue ././pics/wood.pic picture.cal tile_u tile_v -s 8 -ry 90
+0
+1  1.0
+
+## material conversion from Sketchup rgb color
+
+woodpic  plastic  Wood
+0  
+0
+5  0.36 0.25 0.2 0.0 0.05
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Wood~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+############################################################################
+
+## material conversion from Sketchup rgb color
+
+void  metal  lowrail
+0  
+0
+5  0.878 0.874 0.859 0.8 0.15
+
+void  plastic  picframe
+0  
+0
+5  0.5 0.5 0.5 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+# void glass pntcourt
+
+# 0
+
+# 0
+
+# 3 0.2500 0.2500 0.2500
+
+void  plastic  pntcourt
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntdance
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+#y moves up.
+
+void  plastic  pntdarbar
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntgame
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+void  plastic  pntghunghru
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntmatka
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntmusic
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntpatang
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pntshikar
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pnttanpura
+0  
+0
+5  0.7 0.7 0.7 0.1 0.02
+
+######TajMaterials Start Here############################
+
+## materials.rad
+
+## material conversion from Sketchup rgb color
+
+void  plastic  0206_brick
+0  
+0
+5  0.89 0.89 0.875 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  MinGold
+0  
+0
+5  0.68 0.5433 0.4067 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  Nykupolmapping
+0  
+0
+5  0.89 0.89 0.875 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  TMdomebase
+0  
+0
+5  0.7967 0.7867 0.77 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  TMdomebasedec1
+0  
+0
+5  0.78 0.76 0.75 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  front
+0  
+0
+5  0.7967 0.7867 0.77 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  niche_1
+0  
+0
+5  0.89 0.89 0.875 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  pillar
+0  
+0
+5  0.8033 0.7933 0.7767 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajMahalRoofTopPeice
+0  
+0
+5  0.6867 0.6767 0.6567 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_02
+0  
+0
+5  0.73 0.72 0.6833 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_031
+0  
+0
+5  0.6733 0.66 0.6233 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_07
+0  
+0
+5  0.7967 0.7867 0.77 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_09
+0  
+0
+5  0.5533 0.5167 0.4667 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_1
+0  
+0
+5  0.73 0.72 0.6833 0.0 0.0
+
+## material conversion from Sketchup rgb color
+
+void  plastic  tajmahaldetail_12
+0  
+0
+5  0.7967 0.7867 0.77 0.0 0.0
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  metal  GoldTaj
+0  
+0
+5  0.803 0.499 0.19 0.99 0.15
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## material conversion from Sketchup rgb color
+
+void  metal  lowrailTaj
+0  
+0
+5  0.878 0.874 0.859 0.8 0.15
+

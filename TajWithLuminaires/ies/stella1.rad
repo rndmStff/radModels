@@ -1,0 +1,27 @@
+# ies2rad
+# Dimensions in meters
+#<IESNA:LM-63-2002
+#<[TEST] 3847_0
+#<[TESTLAB] ERCO GmbH
+#<[ISSUEDATE] 27-09-2013
+#<[MANUFAC] ERCO GmbH
+#<[LUMCAT] 73504000
+#<[LUMINAIRE] Stella Spotlight
+#<[LAMP] QT12-ax-RE 50W
+# Unknown lamp type (used default)
+# 53 watt luminaire, lamp*ballast factor = 1
+
+void brightdata stella1_dist
+4 corr stella1.dat source.cal src_theta 
+0
+1 64.9612
+
+stella1_dist light stella1_light
+0
+0
+3 1 1 1
+
+stella1_light sphere stella1.s
+0
+0
+4 0 0 0 0.07

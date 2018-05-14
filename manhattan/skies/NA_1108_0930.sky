@@ -1,0 +1,24 @@
+
+## sky description for N/A, N/A
+##   latitude:  40.706
+##   longitude: -73.997
+
+!gensky 11 8 9:30 +s -a 40.7063 -o 73.9967 -m 75.0
+
+skyfunc glow skyglow
+0
+0
+4 1.000 1.000 1.000 0
+skyglow source sky
+0
+0
+4 0 0 1 180
+
+skyfunc glow groundglow
+0
+0
+4 1.000 1.000 1.000 0
+groundglow source ground
+0
+0
+4 0 0 -1 180

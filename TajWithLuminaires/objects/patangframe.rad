@@ -1,0 +1,18 @@
+void colorpict patangpic
+15 red green blue ./pics/patang.pic picture.cal pic_u pic_v  -s 0.72 -t 0.0 0.0 0.0 -rx 0
+0
+1 1
+
+patangpic plastic pntpatang
+0
+0
+5 0.7 0.7 0.7 0.1 0.02
+
+pntpatang polygon patang
+0 
+0
+12
+0 0 0
+.9144 0 0
+0.9144 0.7163 0
+0 .7163 0

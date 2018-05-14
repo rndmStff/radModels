@@ -1,0 +1,32 @@
+# ies2rad
+# Dimensions in meters
+#<IESNA:LM-63-2002
+#<[TEST]23227
+#<[TESTLAB]LIGHTING SCIENCES, INC.
+#<[ISSUEDATE] 2/28/2008
+#<[MANUFAC]LUCIFER LIGHTING - RECESSED DOWNLIGHT LUMINAIRE
+#<[LUMCAT]DL4XM
+#<[LUMINAIRE]WITH TEXTURED SPECULAR CONE AND CLEAR FLAT GLASS LENS
+#<[LAMP]ONE SYL 37 WATT PAR16 HAL LAMP
+#<[LAMPCAT]37MR16/IR/FL40/C. LUMEN RATING = 694 LMS.
+#<[OTHER]LAMP OPERATING AT 12 VDC AND 39 WATTS
+# Unknown lamp type (used default)
+# 39 watt luminaire, lamp*ballast factor = 1
+
+void brightdata 40Down_dist
+4 flatcorr 40Down.dat source.cal src_theta 
+0
+1 219.281
+
+40Down_dist light 40Down_light
+0
+0
+3 1 1 1
+
+40Down_light ring 40Down.d
+0
+0
+8
+	0 0 -0.00025
+	0 0 -1
+	0 0.0381

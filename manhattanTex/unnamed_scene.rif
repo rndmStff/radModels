@@ -1,0 +1,52 @@
+# scene options file for rad
+
+QUALITY=     medium
+DETAIL=      medium
+VARIABILITY= high
+INDIRECT=    2
+PENUMBRAS=   true
+
+PICTURE=     images/Manhattanmap2008
+RESOLUTION=  1632 928
+ZONE=        exterior 0 891.1 0 891.1 0 891.1
+EXPOSURE=    -2
+
+REPORT=      0 logfiles/unnamed_scene.log
+AMBFILE=     ambfiles/unnamed_scene.amb
+OCTREE=      octrees/unnamed_scene.oct
+scene=       unnamed_scene.rad
+
+render=      
+
+oconv=      -w
+
+materials=    materials.rad
+
+view=  unnamed_view -vf ./views/unnamed_view.vf
+
+objects=	./skies/NA_1108_0930.sky
+## scene object files (total=71)
+objects=	./objects/Chipboard.rad	./objects/Gray6.rad	./objects/Material10.rad
+objects=	./objects/Material12.rad	./objects/Material13.rad	./objects/sketchup_default_material.rad
+objects=	./objects/Asphalt_New.rtm	./objects/Asphalt_Old.rtm	./objects/Brick_Antique.rtm
+objects=	./objects/Brick_Antique1.rtm	./objects/Brick_Pavers_Herringbone.rtm	./objects/Brick_Pavers_Modular.rtm
+objects=	./objects/Concrete_Aggregate_Smoke.rtm	./objects/Concrete_Block_8x8_Gray.rtm	./objects/C_ArtDA_corn2_w20_h20.rtm
+objects=	./objects/C_ArtDA_corn2_w20_h21.rtm	./objects/C_ArtDA_corn2_w20_h22.rtm	./objects/C_ArtDA_wind1_w40_h35.rtm
+objects=	./objects/C_ArtDB_dwind_w50_h50.rtm	./objects/C_ArtDB_wind_w25_h35.rtm	./objects/C_ArtDD_wind1_w40_h35.rtm
+objects=	./objects/C_ArtDD_wind3_w40_h40.rtm	./objects/C_ArtDD_wind3_w40_h41.rtm	./objects/C_ChicA_dwind_w50_h50.rtm
+objects=	./objects/C_ChicA_dwind_w50_h51.rtm	./objects/C_ChicB_dwind_w40_h50.rtm	./objects/C_ChicB_dwind_w40_h51.rtm
+objects=	./objects/C_ChicD_dwind_w50_h41.rtm	./objects/C_ChicD_dwind_w50_h49.rtm	./objects/C_ClasA_wind2_w40_h35.rtm
+objects=	./objects/C_ClasB_wind2_w25_h31.rtm	./objects/C_ClasB_wind2_w25_h35.rtm	./objects/C_ModeA_wind_w20_h40.rtm
+objects=	./objects/C_ModeC_dwind_w50_h50.rtm	./objects/C_ModeF_wind_w20_h40.rtm	./objects/C_ModeF_wind_w20_h41.rtm
+objects=	./objects/C_ModeH_wind_w20_h40.rtm	./objects/C_ModeI_panel_w20_h40.rtm	./objects/C_ModeJ_dwind_w40_h80.rtm
+objects=	./objects/C_ModeN_panel_w25_h40.rtm	./objects/C_ModeN_wind_w25_h40.rtm	./objects/C_PostB_panel_w20_h40.rtm
+objects=	./objects/C_PostC_panel_w20_h20.rtm	./objects/C_PostC_panel_w20_h21.rtm	./objects/C_PostC_panel_w20_h22.rtm
+objects=	./objects/C_PostC_wind_w20_h40.rtm	./objects/C_PostD_dwind_w50_h60.rtm	./objects/C_PostD_wind3_w25_h40.rtm
+objects=	./objects/C_PostH_panel_w25_h40.rtm	./objects/C_PostK_panel1_w25_h40.rtm	./objects/C_PostM_wind_w25_h40.rtm
+objects=	./objects/C_RomaA_dwind_w25_h40.rtm	./objects/C_RomaC_wind1_w30_h31.rtm	./objects/C_RomaC_wind1_w30_h32.rtm
+objects=	./objects/C_RomaC_wind1_w30_h35.rtm	./objects/Fencing_Weathered.rtm	./objects/Garage.rtm
+objects=	./objects/Garage1.rtm	./objects/Garage2.rtm	./objects/Garage3.rtm
+objects=	./objects/Groundcover_Sand_Smooth.rtm	./objects/Groundcover_Sand_Smooth1.rtm	./objects/Material11.rtm
+objects=	./objects/Material7.rtm	./objects/Material8.rtm	./objects/Metal_Seamed.rtm
+objects=	./objects/Roofing_Metal_Standing_Seam_Red.rtm	./objects/Stone_Brushed_Khaki.rtm	./objects/Vegetation_Grass1.rtm
+objects=	./objects/Vegetation_Grass_Artificial.rtm	./objects/Water_Pool.rtm

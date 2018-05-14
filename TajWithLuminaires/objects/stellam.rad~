@@ -1,0 +1,26 @@
+# ies2rad -dm -t deluxe cool white
+# Dimensions in meters
+#<IESNA:LM-63-2002
+#<[TEST] 4307_0
+#<[TESTLAB] ERCO GmbH
+#<[ISSUEDATE] 27-09-2013
+#<[MANUFAC] ERCO GmbH
+#<[LUMCAT] 73611000
+#<[LUMINAIRE] Stella Lens wallwasher
+#<[LAMP] HIT-CE 35W
+# 42 watt luminaire, lamp*ballast factor = 1
+
+void brightdata stellam_dist
+5 corr stellam.dat source.cal src_phi2 src_theta 
+0
+1 88.4194
+
+stellam_dist light stellam_light
+0
+0
+3 1.0006 0.819766 0.546647
+
+stellam_light sphere stellam.s
+0
+0
+4 0 0 0 0.06

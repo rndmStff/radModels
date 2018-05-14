@@ -1,0 +1,92 @@
+
+!xform ./materials.rad
+
+
+!xform ./objects/Gold.rad
+!xform ./objects/BrickWall.rad
+!xform ./objects/Water.rad
+!xform ./objects/Marble_Moat.rad
+!xform ./objects/MarbleMoatVert.rad
+!xform ./objects/MarbleMoatVert2.rad
+!xform ./objects/TajFloorMarble.rad
+!xform ./objects/Marble_FloorVert.rad
+
+!xform ./objects/Wood.rad
+!xform ./objects/Marble_Floor.rad
+!xform ./objects/Carpet.rad
+!xform ./objects/Ceiling.rad
+!xform ./objects/Ground.rad
+!xform ./objects/Glazing.rad
+
+
+##########################################
+
+
+!xform ./objects/lowrail.rad
+
+
+
+!xform -rx 90 -t 12.5652 18.2472 1.2392 ./objects/gameframe.rad
+!xform ./objects/pntgame.rad
+
+
+!xform -rx 90 -t 5.14761 0.0508 1.22 ./objects/musicframe.rad
+!xform ./objects/pntmusic.rad
+
+!xform -rx 90 -t 1.34356 0.0508 1.23 ./objects/matkaframe.rad
+!xform ./objects/pntmatka.rad
+
+!xform -rx 90 -t 8.82 18.2372 1.2192 ./objects/darbarframe.rad
+!xform ./objects/pntdarbar.rad
+
+
+!xform -rx 90 -t 16.3058 18.2372 1.2192 ./objects/ghunghruframe.rad
+!xform ./objects/pntghunghru.rad
+
+!xform -rx 90 -t 1.34356 18.2372 1.2192 ./objects/courtframe.rad
+!xform ./objects/pntcourt.rad
+
+!xform -rx 90 -t 5.06411 18.2372 1.20 ./objects/danceframe.rad
+!xform ./objects/pntdance.rad
+
+!xform -rx 90 -t 12.7557 0.0508 1.2192 ./objects/shikarframe.rad
+!xform ./objects/pntshikar.rad
+
+!xform -rx 90 -t 16.5598 0.0508 1.22 ./objects/tanpuraframe.rad
+!xform ./objects/pnttanpura.rad
+
+!xform -rx 90 -t 8.95166 0.0508 1.2192 ./objects/patangframe.rad
+!xform ./objects/pntpatang.rad
+
+
+
+!xform ./objects/picframe.rad
+
+
+#################################################
+
+!xform -f ./objects/L50xf ./objects/L50Frame.rad
+!xform -f ./objects/L50xp ./objects/L50Proj.rad
+!xform -f ./objects/L50xpf ./objects/LMProj.rad
+
+
+######################################################
+
+!xform ./objects/tajmahaldetail_02.rad
+!xform ./objects/Nykupolmapping.rad
+!xform ./objects/niche_1.rad
+!xform ./objects/tajmahaldetail_09.rad
+!xform ./objects/pillar.rad
+!xform ./objects/TMdomebasedec1.rad
+!xform ./objects/tajMahalRoofTopPeice.rad
+!xform ./objects/GoldTaj.rad
+!xform ./objects/MinGold.rad
+!xform ./objects/tajmahaldetail_031.rad
+!xform ./objects/tajmahaldetail_12.rad
+!xform ./objects/tajmahaldetail_1.rad
+!xform ./objects/front.rad
+!xform ./objects/tajmahaldetail_07.rad
+!xform ./objects/TMdomebase.rad
+!xform ./objects/0206_brick.rad
+!xform ./objects/lowrailTaj.rad
+!xform ./objects/sketchup_default_material.rad

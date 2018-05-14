@@ -1,0 +1,26 @@
+# ies2rad -dm -t deluxe warm white
+# Dimensions in meters
+#<IESNA:LM-63-2002
+#<[TEST] 3850_0
+#<[TESTLAB] ERCO GmbH
+#<[ISSUEDATE] 27-09-2013
+#<[MANUFAC] ERCO GmbH
+#<[LUMCAT] 73504000_70692000
+#<[LUMINAIRE] Stella Spotlight
+#<[LAMP] QT12-ax-RE 50W
+# 53 watt luminaire, lamp*ballast factor = 1
+
+void brightdata stellaflood_dist
+5 corr stellaflood.dat source.cal src_phi4 src_theta 
+0
+1 32.4806
+
+stellaflood_dist light stellaflood_light
+0
+0
+3 1.25709 0.747488 0.244937
+
+stellaflood_light sphere stellaflood.s
+0
+0
+4 0 0 0 0.07

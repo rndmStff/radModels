@@ -1,0 +1,761 @@
+## materials.rad
+
+## default material
+void plastic sketchup_default_material
+0
+0
+5 0.4 0.4 0.4 0 0
+
+## material conversion from Sketchup rgb color
+void colorpict Asphalt_New_tex
+7 red green blue textures/Asphalt_New.pic . frac(Lu) frac(Lv)
+0
+0
+Asphalt_New_tex plastic Asphalt_New
+0
+0
+5 0.2233 0.2000 0.2067 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Asphalt_Old_tex
+7 red green blue textures/Asphalt_Old.pic . frac(Lu) frac(Lv)
+0
+0
+Asphalt_Old_tex plastic Asphalt_Old
+0
+0
+5 0.5167 0.4900 0.4833 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Brick_Antique_tex
+7 red green blue textures/Brick_Antique.pic . frac(Lu) frac(Lv)
+0
+0
+Brick_Antique_tex plastic Brick_Antique
+0
+0
+5 0.4900 0.3500 0.2367 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Brick_Antique1_tex
+7 red green blue textures/Brick_Antique.pic . frac(Lu) frac(Lv)
+0
+0
+Brick_Antique1_tex plastic Brick_Antique1
+0
+0
+5 0.4900 0.3500 0.2367 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Brick_Pavers_Herringbone_tex
+7 red green blue textures/Brick_Pavers_Herringbone.pic . frac(Lu) frac(Lv)
+0
+0
+Brick_Pavers_Herringbone_tex plastic Brick_Pavers_Herringbone
+0
+0
+5 0.5733 0.3833 0.3833 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Brick_Pavers_Modular_tex
+7 red green blue textures/Brick_Pavers_Modular.pic . frac(Lu) frac(Lv)
+0
+0
+Brick_Pavers_Modular_tex plastic Brick_Pavers_Modular
+0
+0
+5 0.5833 0.4767 0.4300 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDA_corn2_w20_h20_tex
+7 red green blue textures/C_ArtDA_corn2_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDA_corn2_w20_h20_tex plastic C_ArtDA_corn2_w20_h20
+0
+0
+5 0.5967 0.5233 0.4467 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDA_corn2_w20_h21_tex
+7 red green blue textures/C_ArtDA_corn2_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDA_corn2_w20_h21_tex plastic C_ArtDA_corn2_w20_h21
+0
+0
+5 0.5967 0.5233 0.4467 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDA_corn2_w20_h22_tex
+7 red green blue textures/C_ArtDA_corn2_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDA_corn2_w20_h22_tex plastic C_ArtDA_corn2_w20_h22
+0
+0
+5 0.5967 0.5233 0.4467 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDA_wind1_w40_h35_tex
+7 red green blue textures/C_ArtDA_wind1_w4-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDA_wind1_w40_h35_tex plastic C_ArtDA_wind1_w40_h35
+0
+0
+5 0.4967 0.4533 0.3867 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDB_dwind_w50_h50_tex
+7 red green blue textures/C_ArtDB_d-wind_w5-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDB_dwind_w50_h50_tex plastic C_ArtDB_dwind_w50_h50
+0
+0
+5 0.3400 0.3267 0.3167 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDB_wind_w25_h35_tex
+7 red green blue textures/C_ArtDB_wind_w2-5_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDB_wind_w25_h35_tex plastic C_ArtDB_wind_w25_h35
+0
+0
+5 0.4100 0.3933 0.3800 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDD_wind1_w40_h35_tex
+7 red green blue textures/C_ArtDD_wind1_w4-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDD_wind1_w40_h35_tex plastic C_ArtDD_wind1_w40_h35
+0
+0
+5 0.4900 0.4733 0.4800 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDD_wind3_w40_h40_tex
+7 red green blue textures/C_ArtDD_wind3_w4-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDD_wind3_w40_h40_tex plastic C_ArtDD_wind3_w40_h40
+0
+0
+5 0.3400 0.3400 0.3533 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ArtDD_wind3_w40_h41_tex
+7 red green blue textures/C_ArtDD_wind3_w4-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ArtDD_wind3_w40_h41_tex plastic C_ArtDD_wind3_w40_h41
+0
+0
+5 0.3400 0.3400 0.3533 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicA_dwind_w50_h50_tex
+7 red green blue textures/C_ChicA_d-wind_w5-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicA_dwind_w50_h50_tex plastic C_ChicA_dwind_w50_h50
+0
+0
+5 0.1267 0.0767 0.0633 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicA_dwind_w50_h51_tex
+7 red green blue textures/C_ChicA_d-wind_w5-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicA_dwind_w50_h51_tex plastic C_ChicA_dwind_w50_h51
+0
+0
+5 0.2133 0.2267 0.2300 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicB_dwind_w40_h50_tex
+7 red green blue textures/C_ChicB_d-wind_w4-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicB_dwind_w40_h50_tex plastic C_ChicB_dwind_w40_h50
+0
+0
+5 0.3667 0.3200 0.3100 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicB_dwind_w40_h51_tex
+7 red green blue textures/C_ChicB_d-wind_w4-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicB_dwind_w40_h51_tex plastic C_ChicB_dwind_w40_h51
+0
+0
+5 0.3667 0.3200 0.3100 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicD_dwind_w50_h41_tex
+7 red green blue textures/C_ChicD_d-wind_w5-0_h4-9.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicD_dwind_w50_h41_tex plastic C_ChicD_dwind_w50_h41
+0
+0
+5 0.4900 0.4433 0.3767 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ChicD_dwind_w50_h49_tex
+7 red green blue textures/C_ChicD_d-wind_w5-0_h4-9.pic . frac(Lu) frac(Lv)
+0
+0
+C_ChicD_dwind_w50_h49_tex plastic C_ChicD_dwind_w50_h49
+0
+0
+5 0.2700 0.2433 0.2067 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ClasA_wind2_w40_h35_tex
+7 red green blue textures/C_ClasA_wind2_w4-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ClasA_wind2_w40_h35_tex plastic C_ClasA_wind2_w40_h35
+0
+0
+5 0.3900 0.4033 0.3800 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ClasB_wind2_w25_h31_tex
+7 red green blue textures/C_ClasB_wind2_w2-5_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ClasB_wind2_w25_h31_tex plastic C_ClasB_wind2_w25_h31
+0
+0
+5 0.5267 0.5033 0.5100 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ClasB_wind2_w25_h35_tex
+7 red green blue textures/C_ClasB_wind2_w2-5_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_ClasB_wind2_w25_h35_tex plastic C_ClasB_wind2_w25_h35
+0
+0
+5 0.5267 0.5033 0.5100 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeA_wind_w20_h40_tex
+7 red green blue textures/C_ModeA_wind_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeA_wind_w20_h40_tex plastic C_ModeA_wind_w20_h40
+0
+0
+5 0.2600 0.2667 0.2700 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeC_dwind_w50_h50_tex
+7 red green blue textures/C_ModeC_d-wind_w5-0_h5-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeC_dwind_w50_h50_tex plastic C_ModeC_dwind_w50_h50
+0
+0
+5 0.1367 0.1367 0.1433 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeF_wind_w20_h40_tex
+7 red green blue textures/C_ModeF_wind_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeF_wind_w20_h40_tex plastic C_ModeF_wind_w20_h40
+0
+0
+5 0.2800 0.2900 0.2967 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeF_wind_w20_h41_tex
+7 red green blue textures/C_ModeF_wind_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeF_wind_w20_h41_tex plastic C_ModeF_wind_w20_h41
+0
+0
+5 0.2367 0.1233 0.0900 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeH_wind_w20_h40_tex
+7 red green blue textures/C_ModeH_wind_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeH_wind_w20_h40_tex plastic C_ModeH_wind_w20_h40
+0
+0
+5 0.2633 0.2733 0.3067 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeI_panel_w20_h40_tex
+7 red green blue textures/C_ModeI_panel_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeI_panel_w20_h40_tex plastic C_ModeI_panel_w20_h40
+0
+0
+5 0.5567 0.5367 0.5433 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeJ_dwind_w40_h80_tex
+7 red green blue textures/C_ModeJ_d-wind_w4-0_h8-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeJ_dwind_w40_h80_tex plastic C_ModeJ_dwind_w40_h80
+0
+0
+5 0.1833 0.1733 0.1667 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeN_panel_w25_h40_tex
+7 red green blue textures/C_ModeN_panel_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeN_panel_w25_h40_tex plastic C_ModeN_panel_w25_h40
+0
+0
+5 0.6033 0.6033 0.6033 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_ModeN_wind_w25_h40_tex
+7 red green blue textures/C_ModeN_wind_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_ModeN_wind_w25_h40_tex plastic C_ModeN_wind_w25_h40
+0
+0
+5 0.4000 0.4000 0.3900 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostB_panel_w20_h40_tex
+7 red green blue textures/C_PostB_panel_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostB_panel_w20_h40_tex plastic C_PostB_panel_w20_h40
+0
+0
+5 0.6400 0.6633 0.6967 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostC_panel_w20_h20_tex
+7 red green blue textures/C_PostC_panel_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostC_panel_w20_h20_tex plastic C_PostC_panel_w20_h20
+0
+0
+5 0.1633 0.2467 0.3033 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostC_panel_w20_h21_tex
+7 red green blue textures/C_PostC_panel_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostC_panel_w20_h21_tex plastic C_PostC_panel_w20_h21
+0
+0
+5 0.1633 0.2467 0.3033 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostC_panel_w20_h22_tex
+7 red green blue textures/C_PostC_panel_w2-0_h2-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostC_panel_w20_h22_tex plastic C_PostC_panel_w20_h22
+0
+0
+5 0.1633 0.2467 0.3033 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostC_wind_w20_h40_tex
+7 red green blue textures/C_PostC_wind_w2-0_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostC_wind_w20_h40_tex plastic C_PostC_wind_w20_h40
+0
+0
+5 0.4900 0.4267 0.3633 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostD_dwind_w50_h60_tex
+7 red green blue textures/C_PostD_d-wind_w5-0_h6-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostD_dwind_w50_h60_tex plastic C_PostD_dwind_w50_h60
+0
+0
+5 0.2333 0.2167 0.1967 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostD_wind3_w25_h40_tex
+7 red green blue textures/C_PostD_wind3_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostD_wind3_w25_h40_tex plastic C_PostD_wind3_w25_h40
+0
+0
+5 0.2967 0.2633 0.2300 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostH_panel_w25_h40_tex
+7 red green blue textures/C_PostH_panel_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostH_panel_w25_h40_tex plastic C_PostH_panel_w25_h40
+0
+0
+5 0.6200 0.5967 0.5633 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostK_panel1_w25_h40_tex
+7 red green blue textures/C_PostK_panel1_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostK_panel1_w25_h40_tex plastic C_PostK_panel1_w25_h40
+0
+0
+5 0.5900 0.5300 0.4500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_PostM_wind_w25_h40_tex
+7 red green blue textures/C_PostM_wind_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_PostM_wind_w25_h40_tex plastic C_PostM_wind_w25_h40
+0
+0
+5 0.2933 0.2500 0.2500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_RomaA_dwind_w25_h40_tex
+7 red green blue textures/C_RomaA_d-wind_w2-5_h4-0.pic . frac(Lu) frac(Lv)
+0
+0
+C_RomaA_dwind_w25_h40_tex plastic C_RomaA_dwind_w25_h40
+0
+0
+5 0.5000 0.4000 0.3300 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_RomaC_wind1_w30_h31_tex
+7 red green blue textures/C_RomaC_wind1_w3-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_RomaC_wind1_w30_h31_tex plastic C_RomaC_wind1_w30_h31
+0
+0
+5 0.3567 0.2667 0.2333 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_RomaC_wind1_w30_h32_tex
+7 red green blue textures/C_RomaC_wind1_w3-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_RomaC_wind1_w30_h32_tex plastic C_RomaC_wind1_w30_h32
+0
+0
+5 0.3567 0.2667 0.2333 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict C_RomaC_wind1_w30_h35_tex
+7 red green blue textures/C_RomaC_wind1_w3-0_h3-5.pic . frac(Lu) frac(Lv)
+0
+0
+C_RomaC_wind1_w30_h35_tex plastic C_RomaC_wind1_w30_h35
+0
+0
+5 0.3567 0.2667 0.2333 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Chipboard
+0
+0
+5 0.5633 0.5100 0.3767 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Concrete_Aggregate_Smoke_tex
+7 red green blue textures/Concrete_Aggregate_Smoke.pic . frac(Lu) frac(Lv)
+0
+0
+Concrete_Aggregate_Smoke_tex plastic Concrete_Aggregate_Smoke
+0
+0
+5 0.5133 0.5000 0.4933 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Concrete_Block_8x8_Gray_tex
+7 red green blue textures/Concrete_Block_8x8_Gray.pic . frac(Lu) frac(Lv)
+0
+0
+Concrete_Block_8x8_Gray_tex plastic Concrete_Block_8x8_Gray
+0
+0
+5 0.5233 0.5267 0.5133 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Fencing_Weathered_tex
+7 red green blue textures/Fencing_Weathered.pic . frac(Lu) frac(Lv)
+0
+0
+Fencing_Weathered_tex plastic Fencing_Weathered
+0
+0
+5 0.3700 0.3500 0.3200 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Garage_tex
+7 red green blue textures/Garage.pic . frac(Lu) frac(Lv)
+0
+0
+Garage_tex plastic Garage
+0
+0
+5 0.3900 0.3600 0.3500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Garage1_tex
+7 red green blue textures/Garage.pic . frac(Lu) frac(Lv)
+0
+0
+Garage1_tex plastic Garage1
+0
+0
+5 0.3900 0.3600 0.3500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Garage2_tex
+7 red green blue textures/Garage.pic . frac(Lu) frac(Lv)
+0
+0
+Garage2_tex plastic Garage2
+0
+0
+5 0.3900 0.3600 0.3500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Garage3_tex
+7 red green blue textures/Garage.pic . frac(Lu) frac(Lv)
+0
+0
+Garage3_tex plastic Garage3
+0
+0
+5 0.3900 0.3600 0.3500 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Gray6
+0
+0
+5 0.3200 0.3200 0.3200 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Groundcover_Sand_Smooth_tex
+7 red green blue textures/Groundcover_Sand_Smooth.pic . frac(Lu) frac(Lv)
+0
+0
+Groundcover_Sand_Smooth_tex plastic Groundcover_Sand_Smooth
+0
+0
+5 0.6067 0.4933 0.3367 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Groundcover_Sand_Smooth1_tex
+7 red green blue textures/Groundcover_Sand_Smooth.pic . frac(Lu) frac(Lv)
+0
+0
+Groundcover_Sand_Smooth1_tex plastic Groundcover_Sand_Smooth1
+0
+0
+5 0.6067 0.4933 0.3367 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Material10
+0
+0
+5 0.5433 0.5433 0.5433 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Material11_tex
+7 red green blue textures/Vegetation_Grass_Artificial.pic . frac(Lu) frac(Lv)
+0
+0
+Material11_tex plastic Material11
+0
+0
+5 0.5500 0.5667 0.3633 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Material12
+0
+0
+5 0.4400 0.4400 0.4400 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Material13
+0
+0
+5 0.3300 0.3300 0.3300 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic Material7
+0
+0
+5 0.6800 0.7000 0.6733 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Material8_tex
+7 red green blue textures/Brooklyn_Bridge_Cable1.pic . frac(Lu) frac(Lv)
+0
+0
+Material8_tex plastic Material8
+0
+0
+5 0.8300 0.8267 0.8267 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Metal_Seamed_tex
+7 red green blue textures/Metal_Seamed.pic . frac(Lu) frac(Lv)
+0
+0
+Metal_Seamed_tex plastic Metal_Seamed
+0
+0
+5 0.3933 0.3967 0.3833 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Roofing_Metal_Standing_Seam_Red_tex
+7 red green blue textures/Roofing_Metal_Standing_Seam_Red.pic . frac(Lu) frac(Lv)
+0
+0
+Roofing_Metal_Standing_Seam_Red_tex plastic Roofing_Metal_Standing_Seam_Red
+0
+0
+5 0.5533 0.2333 0.1933 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Stone_Brushed_Khaki_tex
+7 red green blue textures/Stone_Brushed_Khaki.pic . frac(Lu) frac(Lv)
+0
+0
+Stone_Brushed_Khaki_tex plastic Stone_Brushed_Khaki
+0
+0
+5 0.7533 0.6567 0.4433 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Vegetation_Grass1_tex
+7 red green blue textures/Vegetation_Grass1.pic . frac(Lu) frac(Lv)
+0
+0
+Vegetation_Grass1_tex plastic Vegetation_Grass1
+0
+0
+5 0.4800 0.5233 0.3000 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Vegetation_Grass_Artificial_tex
+7 red green blue textures/Vegetation_Grass_Artificial.pic . frac(Lu) frac(Lv)
+0
+0
+Vegetation_Grass_Artificial_tex plastic Vegetation_Grass_Artificial
+0
+0
+5 0.3267 0.4667 0.2467 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void colorpict Water_Pool_tex
+7 red green blue textures/Water_Pool.pic . frac(Lu) frac(Lv)
+0
+0
+Water_Pool_tex plastic Water_Pool
+0
+0
+5 0.2133 0.4967 0.5567 0.000 0.000
+
+
+## material conversion from Sketchup rgb color
+void plastic sketchup_default_material
+0
+0
+5 0.3400 0.3400 0.3400 0.000 0.000
+
+

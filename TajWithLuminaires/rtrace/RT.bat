@@ -1,0 +1,1 @@
+type x.pts | rtrace   -faa -h -opv -I -dv- -x 1 -i -ab 5 octrees\LfWl.oct| rcalc -e "$1=$1;$2=$2;$3 =$3;$4=$4*47.4482686+$5*119.950519+$6*11.6012125" > o.pts

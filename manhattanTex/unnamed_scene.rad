@@ -1,0 +1,334 @@
+!xform ./skies/NA_1108_0930.sky 
+!xform ./materials.rad
+
+
+C_ArtDA_corn2_w20_h21 mesh C_ArtDA_corn2_w20_h21_obj
+1 ./objects/C_ArtDA_corn2_w20_h21.rtm
+0
+0
+
+C_ModeF_wind_w20_h41 mesh C_ModeF_wind_w20_h41_obj
+1 ./objects/C_ModeF_wind_w20_h41.rtm
+0
+0
+!xform ./objects/Gray6.rad
+
+Garage mesh Garage_obj
+1 ./objects/Garage.rtm
+0
+0
+
+C_ArtDB_wind_w25_h35 mesh C_ArtDB_wind_w25_h35_obj
+1 ./objects/C_ArtDB_wind_w25_h35.rtm
+0
+0
+
+C_ArtDA_corn2_w20_h20 mesh C_ArtDA_corn2_w20_h20_obj
+1 ./objects/C_ArtDA_corn2_w20_h20.rtm
+0
+0
+
+C_PostC_panel_w20_h22 mesh C_PostC_panel_w20_h22_obj
+1 ./objects/C_PostC_panel_w20_h22.rtm
+0
+0
+
+C_PostC_panel_w20_h21 mesh C_PostC_panel_w20_h21_obj
+1 ./objects/C_PostC_panel_w20_h21.rtm
+0
+0
+
+C_PostC_panel_w20_h20 mesh C_PostC_panel_w20_h20_obj
+1 ./objects/C_PostC_panel_w20_h20.rtm
+0
+0
+
+C_ModeC_dwind_w50_h50 mesh C_ModeC_dwind_w50_h50_obj
+1 ./objects/C_ModeC_dwind_w50_h50.rtm
+0
+0
+
+C_ModeF_wind_w20_h40 mesh C_ModeF_wind_w20_h40_obj
+1 ./objects/C_ModeF_wind_w20_h40.rtm
+0
+0
+
+C_ChicB_dwind_w40_h51 mesh C_ChicB_dwind_w40_h51_obj
+1 ./objects/C_ChicB_dwind_w40_h51.rtm
+0
+0
+
+C_ChicA_dwind_w50_h50 mesh C_ChicA_dwind_w50_h50_obj
+1 ./objects/C_ChicA_dwind_w50_h50.rtm
+0
+0
+!xform ./objects/Chipboard.rad
+
+C_ChicD_dwind_w50_h49 mesh C_ChicD_dwind_w50_h49_obj
+1 ./objects/C_ChicD_dwind_w50_h49.rtm
+0
+0
+
+C_ClasA_wind2_w40_h35 mesh C_ClasA_wind2_w40_h35_obj
+1 ./objects/C_ClasA_wind2_w40_h35.rtm
+0
+0
+
+C_ArtDD_wind1_w40_h35 mesh C_ArtDD_wind1_w40_h35_obj
+1 ./objects/C_ArtDD_wind1_w40_h35.rtm
+0
+0
+
+C_PostD_dwind_w50_h60 mesh C_PostD_dwind_w50_h60_obj
+1 ./objects/C_PostD_dwind_w50_h60.rtm
+0
+0
+
+C_PostK_panel1_w25_h40 mesh C_PostK_panel1_w25_h40_obj
+1 ./objects/C_PostK_panel1_w25_h40.rtm
+0
+0
+
+C_ClasB_wind2_w25_h35 mesh C_ClasB_wind2_w25_h35_obj
+1 ./objects/C_ClasB_wind2_w25_h35.rtm
+0
+0
+
+Material8 mesh Material8_obj
+1 ./objects/Material8.rtm
+0
+0
+
+C_ClasB_wind2_w25_h31 mesh C_ClasB_wind2_w25_h31_obj
+1 ./objects/C_ClasB_wind2_w25_h31.rtm
+0
+0
+
+C_ModeH_wind_w20_h40 mesh C_ModeH_wind_w20_h40_obj
+1 ./objects/C_ModeH_wind_w20_h40.rtm
+0
+0
+
+Garage3 mesh Garage3_obj
+1 ./objects/Garage3.rtm
+0
+0
+
+C_ModeJ_dwind_w40_h80 mesh C_ModeJ_dwind_w40_h80_obj
+1 ./objects/C_ModeJ_dwind_w40_h80.rtm
+0
+0
+
+Vegetation_Grass_Artificial mesh Vegetation_Grass_Artificial_obj
+1 ./objects/Vegetation_Grass_Artificial.rtm
+0
+0
+
+Concrete_Aggregate_Smoke mesh Concrete_Aggregate_Smoke_obj
+1 ./objects/Concrete_Aggregate_Smoke.rtm
+0
+0
+
+Roofing_Metal_Standing_Seam_Red mesh Roofing_Metal_Standing_Seam_Red_obj
+1 ./objects/Roofing_Metal_Standing_Seam_Red.rtm
+0
+0
+
+C_ChicD_dwind_w50_h41 mesh C_ChicD_dwind_w50_h41_obj
+1 ./objects/C_ChicD_dwind_w50_h41.rtm
+0
+0
+
+C_ArtDB_dwind_w50_h50 mesh C_ArtDB_dwind_w50_h50_obj
+1 ./objects/C_ArtDB_dwind_w50_h50.rtm
+0
+0
+!xform ./objects/Material10.rad
+!xform ./objects/sketchup_default_material.rad
+
+Material7 mesh Material7_obj
+1 ./objects/Material7.rtm
+0
+0
+
+C_ArtDD_wind3_w40_h40 mesh C_ArtDD_wind3_w40_h40_obj
+1 ./objects/C_ArtDD_wind3_w40_h40.rtm
+0
+0
+
+C_ModeN_panel_w25_h40 mesh C_ModeN_panel_w25_h40_obj
+1 ./objects/C_ModeN_panel_w25_h40.rtm
+0
+0
+
+C_RomaA_dwind_w25_h40 mesh C_RomaA_dwind_w25_h40_obj
+1 ./objects/C_RomaA_dwind_w25_h40.rtm
+0
+0
+
+C_ModeI_panel_w20_h40 mesh C_ModeI_panel_w20_h40_obj
+1 ./objects/C_ModeI_panel_w20_h40.rtm
+0
+0
+
+C_ArtDA_corn2_w20_h22 mesh C_ArtDA_corn2_w20_h22_obj
+1 ./objects/C_ArtDA_corn2_w20_h22.rtm
+0
+0
+
+C_PostM_wind_w25_h40 mesh C_PostM_wind_w25_h40_obj
+1 ./objects/C_PostM_wind_w25_h40.rtm
+0
+0
+
+C_RomaC_wind1_w30_h35 mesh C_RomaC_wind1_w30_h35_obj
+1 ./objects/C_RomaC_wind1_w30_h35.rtm
+0
+0
+
+Vegetation_Grass1 mesh Vegetation_Grass1_obj
+1 ./objects/Vegetation_Grass1.rtm
+0
+0
+
+C_PostH_panel_w25_h40 mesh C_PostH_panel_w25_h40_obj
+1 ./objects/C_PostH_panel_w25_h40.rtm
+0
+0
+
+C_ModeA_wind_w20_h40 mesh C_ModeA_wind_w20_h40_obj
+1 ./objects/C_ModeA_wind_w20_h40.rtm
+0
+0
+
+C_ChicB_dwind_w40_h50 mesh C_ChicB_dwind_w40_h50_obj
+1 ./objects/C_ChicB_dwind_w40_h50.rtm
+0
+0
+
+C_PostC_wind_w20_h40 mesh C_PostC_wind_w20_h40_obj
+1 ./objects/C_PostC_wind_w20_h40.rtm
+0
+0
+
+C_ArtDD_wind3_w40_h41 mesh C_ArtDD_wind3_w40_h41_obj
+1 ./objects/C_ArtDD_wind3_w40_h41.rtm
+0
+0
+
+C_PostB_panel_w20_h40 mesh C_PostB_panel_w20_h40_obj
+1 ./objects/C_PostB_panel_w20_h40.rtm
+0
+0
+
+C_ArtDA_wind1_w40_h35 mesh C_ArtDA_wind1_w40_h35_obj
+1 ./objects/C_ArtDA_wind1_w40_h35.rtm
+0
+0
+
+C_ModeN_wind_w25_h40 mesh C_ModeN_wind_w25_h40_obj
+1 ./objects/C_ModeN_wind_w25_h40.rtm
+0
+0
+
+C_ChicA_dwind_w50_h51 mesh C_ChicA_dwind_w50_h51_obj
+1 ./objects/C_ChicA_dwind_w50_h51.rtm
+0
+0
+
+Garage1 mesh Garage1_obj
+1 ./objects/Garage1.rtm
+0
+0
+
+C_PostD_wind3_w25_h40 mesh C_PostD_wind3_w25_h40_obj
+1 ./objects/C_PostD_wind3_w25_h40.rtm
+0
+0
+
+Garage2 mesh Garage2_obj
+1 ./objects/Garage2.rtm
+0
+0
+
+Brick_Pavers_Herringbone mesh Brick_Pavers_Herringbone_obj
+1 ./objects/Brick_Pavers_Herringbone.rtm
+0
+0
+!xform ./objects/Material13.rad
+
+Brick_Antique mesh Brick_Antique_obj
+1 ./objects/Brick_Antique.rtm
+0
+0
+
+Concrete_Block_8x8_Gray mesh Concrete_Block_8x8_Gray_obj
+1 ./objects/Concrete_Block_8x8_Gray.rtm
+0
+0
+
+Material11 mesh Material11_obj
+1 ./objects/Material11.rtm
+0
+0
+
+Water_Pool mesh Water_Pool_obj
+1 ./objects/Water_Pool.rtm
+0
+0
+
+C_RomaC_wind1_w30_h32 mesh C_RomaC_wind1_w30_h32_obj
+1 ./objects/C_RomaC_wind1_w30_h32.rtm
+0
+0
+
+C_RomaC_wind1_w30_h31 mesh C_RomaC_wind1_w30_h31_obj
+1 ./objects/C_RomaC_wind1_w30_h31.rtm
+0
+0
+!xform ./objects/Material12.rad
+
+Groundcover_Sand_Smooth mesh Groundcover_Sand_Smooth_obj
+1 ./objects/Groundcover_Sand_Smooth.rtm
+0
+0
+
+Stone_Brushed_Khaki mesh Stone_Brushed_Khaki_obj
+1 ./objects/Stone_Brushed_Khaki.rtm
+0
+0
+
+Brick_Pavers_Modular mesh Brick_Pavers_Modular_obj
+1 ./objects/Brick_Pavers_Modular.rtm
+0
+0
+
+Asphalt_Old mesh Asphalt_Old_obj
+1 ./objects/Asphalt_Old.rtm
+0
+0
+
+Fencing_Weathered mesh Fencing_Weathered_obj
+1 ./objects/Fencing_Weathered.rtm
+0
+0
+
+Groundcover_Sand_Smooth1 mesh Groundcover_Sand_Smooth1_obj
+1 ./objects/Groundcover_Sand_Smooth1.rtm
+0
+0
+
+Metal_Seamed mesh Metal_Seamed_obj
+1 ./objects/Metal_Seamed.rtm
+0
+0
+
+Brick_Antique1 mesh Brick_Antique1_obj
+1 ./objects/Brick_Antique1.rtm
+0
+0
+
+Asphalt_New mesh Asphalt_New_obj
+1 ./objects/Asphalt_New.rtm
+0
+0

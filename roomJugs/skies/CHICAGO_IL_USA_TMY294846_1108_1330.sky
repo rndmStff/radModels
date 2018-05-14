@@ -1,0 +1,24 @@
+
+## sky description for CHICAGO_IL_USA TMY2-94846, USA
+##   latitude:  41.780
+##   longitude: -87.750
+
+!gensky 11 8 13:30 +s -a 41.7800 -o 87.7500 -m 90.0
+
+skyfunc glow skyglow
+0
+0
+4 1.000 1.000 1.000 0
+skyglow source sky
+0
+0
+4 0 0 1 180
+
+skyfunc glow groundglow
+0
+0
+4 1.000 1.000 1.000 0
+groundglow source ground
+0
+0
+4 0 0 -1 180

@@ -1,0 +1,59 @@
+# scene options file for rad
+
+QUALITY=     medium
+DETAIL=      medium
+VARIABILITY= high
+INDIRECT=    2
+PENUMBRAS=   true
+
+PICTURE=     images/House2
+RESOLUTION=  1844 863
+ZONE=        exterior 0 323.3 0 323.3 0 323.3
+EXPOSURE=    -2
+
+REPORT=      0 logfiles/unnamed_scene.log
+AMBFILE=     ambfiles/unnamed_scene.amb
+OCTREE=      octrees/unnamed_scene.oct
+scene=       unnamed_scene.rad
+
+render=      
+
+oconv=      -w
+
+materials=    materials.rad
+
+
+PGMAP= global.pmap 200k 50
+PCMAP= caustic.pmap 200k 50
+
+view= Close_to_pool -vf views/Close_to_pool.vf
+view= Look_at_pool -vf views/Look_at_pool.vf
+view= Look_at_pool_perforated -vf views/Look_at_pool_perforated.vf
+view= Look_At_Table -vf views/Look_At_Table.vf
+view= Look_at_table_far -vf views/Look_at_table_far.vf
+view= Look_at_water -vf views/Look_at_water.vf
+view= Look_from_inside -vf views/Look_from_inside.vf
+view= PoolCeiling -vf views/PoolCeiling.vf
+view= PoolDeepEnd -vf views/PoolDeepEnd.vf
+view= PoolDown -vf views/PoolDown.vf
+view= PoolShallow -vf views/PoolShallow.vf
+view= PoolSteps -vf views/PoolSteps.vf
+view= Aquarium1 -vf views/Aquarium1.vf
+view= Aquarium2 -vf views/Aquarium2.vf
+view= Aquarium3 -vf views/Aquarium3.vf
+view= Aquarium4 -vf views/Aquarium4.vf
+
+
+
+
+objects=	./skies/CHICAGO_IL_USA_TMY294846_1108_1330.sky
+## scene object files (total=26)
+objects=	objects/AquariumGlass.rad	objects/AquariumTile.rad	objects/Aquarium_feeder.rad
+objects=	objects/Aquarium_wood.rad	objects/Chair_Cushion.rad	objects/Chair_Table_Metal.rad
+objects=	objects/Easy_Chair_Fabric.rad	objects/Easy_chair_metal.rad	objects/Fencing_Weathered.rad
+objects=	objects/Fish.rad	objects/Grass.rad	objects/Ground.rad
+objects=	objects/OutPlatFormBrick.rad	objects/OutTile.rad	objects/PoolGlassWall.rad
+objects=	objects/Pool_Ceiling.rad	objects/Pool_FloorTile.rad	objects/Pool_GlassDoor.rad
+objects=	objects/Pool_HorizontalTile.rad	objects/Pool_SurfaceTile.rad	objects/Pool_VerticalTile.rad
+objects=	objects/Room_Glazing.rad	objects/sketchup_default_material.rad	objects/Wall.rad
+objects=	objects/Water.rad	objects/Wood_Cherry_Original.rad

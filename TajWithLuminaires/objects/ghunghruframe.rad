@@ -1,0 +1,18 @@
+void colorpict ghunghrupic
+15 red green blue ./pics/ghunghru.pic picture.cal pic_u pic_v  -s 0.71 -t 0.0 0.0 0.0 -rx 0
+0
+1 1
+
+ghunghrupic plastic pntghunghru
+0
+0
+5 0.7 0.7 0.7 0.1 0.02
+
+pntghunghru polygon ghunghru
+0 
+0
+12
+0 0 0
+.9144 0 0
+0.9144 0.7061 0
+0 .7061 0

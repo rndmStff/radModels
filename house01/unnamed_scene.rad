@@ -1,0 +1,10 @@
+!xform ./skies/Boulder_CO_1108_1330.sky 
+!xform ./materials.rad
+
+!xform ./objects/OuterWall.rad
+!xform ./objects/sketchup_default_material.rad
+!xform ./objects/Floor2.rad
+!xform ./objects/InnerWall.rad
+!xform ./objects/Floor.rad
+!xform ./objects/ceiling.rad
+!xform ./objects/Concrete_Block_Retaining_Gray.rad

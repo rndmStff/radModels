@@ -1,0 +1,16 @@
+!xform ./skies/CHICAGO_IL_USA_TMY294846_1108_1330.sky 
+!xform ./materials.rad
+
+!xform ./objects/Jug3.rad
+!xform ./objects/shades.rad
+!xform ./objects/Jug1.rad
+!xform ./objects/Jug2.rad
+!xform ./objects/Jug4.rad
+!xform ./objects/JugNames.rad
+!xform ./objects/sketchup_default_material.rad
+!xform ./objects/Floor.rad
+!xform ./objects/Ceiling.rad
+!xform ./objects/Walls.rad
+!xform ./objects/Glazing.rad
+!xform ./objects/table.rad
+!xform ./objects/Ground.rad

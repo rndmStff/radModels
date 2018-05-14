@@ -1,0 +1,21 @@
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+
+
+# replmarks -x 40Down.rad AquariumLight
+
+!xform -n f_21_0 -rx 180.000000 -rz 90.000000 -t 16.549091 16.096641 0.128036 ./40Down.rad
+
+!xform -n f_22_0 -rx 180.000000 -rz 90.000000 -t 17.864176 16.096641 0.128036 ./40Down.rad
+
+!xform -n f_23_0 -rx 180.000000 -rz 90.000000 -t 15.234006 16.096641 0.128036 ./40Down.rad
+
+!xform -n f_24_0 -rx 180.000000 -rz 90.000000 -t 20.494346 16.096641 0.128036 ./40Down.rad
+
+!xform -n f_25_0 -rx 180.000000 -rz 90.000000 -t 21.809431 16.096641 0.128036 ./40Down.rad
+
+!xform -n f_26_0 -rx 180.000000 -rz 90.000000 -t 19.179261 16.096641 0.128036 ./40Down.rad

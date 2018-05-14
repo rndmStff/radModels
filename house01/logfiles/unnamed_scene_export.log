@@ -1,0 +1,54 @@
+###  su2rad.rb export  ###
+###  Mon May 14 11:36:22 2018  ###
+[D] ExportOptions.initialize()
+[V] loading export options from attribute
+[D] setSketchup()
+[D] setExportOptions() ...
+[V] 'replmarks' found => keeping 'global coords' options
+[V] 'convert' found => keeping 'textures' options
+[D] setRenderOptions() ...
+[D] SketchupViewsList: setting views list ...
+[D] setSkyOptions() ...
+[I] mList rad: setting materials 0 to 200
+[I] mList rad: setting materials 200 to 203
+[I] mList skm: setting materials 0 to 17
+[I] mList layer: setting materials 0 to 1
+[I] Tbleicher::Su2Rad::WebOptionsExport new value for @scenePath: 'C:/Users/Sarith/Desktop/skp/house01/'
+[V] TODO: webdialog closed
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/octrees'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/images'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/logfiles'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/ambfiles'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/./skies'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./skies/Boulder_CO_1108_1330.sky'
+[I] 
+[I] OBJECTS:
+[V] group: ''
+[I] begin export Sketchup::Group name='' id='764653897720'
+[I] parenttrans = entity.transformation
+[D] WARNING: front vs. back material: 'ceiling' - 'OuterWall'
+[D] WARNING: front vs. back material: '#<Sketchup::Material:0x00016411ce39b8>' - '#<Sketchup::Material:0x00016411ce3d00>'
+[V] exported entities [refs=0, faces=77]
+[I] end export Sketchup::Group name=''
+[V] exported entities [refs=1, faces=1]
+[I] 
+[I] SCENEFILES:
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/./objects'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/OuterWall.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/sketchup_default_material.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/Floor2.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/InnerWall.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/Floor.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/ceiling.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./objects/Concrete_Block_Retaining_Gray.rad'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/unnamed_scene.rad'
+[I] 
+[I] MATERIALS:
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/materials.rad'
+[I] Creating directory 'C:/Users/Sarith/Desktop/skp/house01/./views'
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/./views/unnamed_view.vf'
+[3] XXX object file: .
+[3] XXX object file: ..
+[V] created file 'C:/Users/Sarith/Desktop/skp/house01/unnamed_scene.rif'
+###  finished: 2018-05-14 11:36:52 +0200  ###
+###  status: running (groups=1, faces=78)  ###

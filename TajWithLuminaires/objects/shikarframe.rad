@@ -1,0 +1,18 @@
+void colorpict shikarpic
+15 red green blue ./pics/shikar.pic picture.cal pic_u pic_v  -s 0.62 -t 0.0 0.0 0.0 -rx 0
+0
+1 1
+
+shikarpic plastic pntshikar
+0
+0
+5 0.7 0.7 0.7 0.1 0.02
+
+pntshikar polygon shikar
+0 
+0
+12
+0 0 0
+.9144 0 0
+0.9144 0.6304 0
+0 .6304 0

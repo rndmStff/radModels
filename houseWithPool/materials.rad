@@ -1,0 +1,403 @@
+
+
+#~~~~~~~~~Definition for OutTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+8  brick_x brick_y brick_xy brick.cal -rx 90 -rz 45
+0
+6  0.01 0.6 0.6 0.0 0.6 0.4
+# 
+# 	
+brick_tex  brightfunc  bricks
+6  brick_xy brick.cal -rx 90 -rz 45
+0
+6  0.01 0.6 0.6 0.0 0.6 0.4
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  OutTile
+0  
+0
+5  0.5 0.5 0.5 0.0 0.05
+
+
+#~~~~~~~~~Definition for PoolGlassWall~~~~~~~~~~~
+
+# Material modified through a library material named Light_Grey_Tinted_Glass from the library Glass.rmlib
+void  glass  PoolGlassWall
+0  
+0
+3  0.453656 0.500507 0.456925
+
+
+#~~~~~~~~~Definition for OutPlatFormBrick~~~~~~~~~~~
+
+void  brightfunc  Dirty
+4  dirt dirt.cal -s .06
+0
+1  0.25
+# Material modified through a library material named Greyish_wall_dirty from the library Walls.rmlib
+Dirty  plastic  OutPlatFormBrick
+0  
+0
+5  0.687541 0.710201 0.717113 0.0 0.0
+
+
+#~~~~~~~~~Definition for Aquarium_wood~~~~~~~~~~~
+
+void  brightfunc  Woodgrain_b1
+4  dirt dirt.cal -s 0.008
+0
+1  0.15
+
+Woodgrain_b1  brightfunc  Woodgrain_b2
+4  zgrain woodpat.cal -s 0.016
+0
+1  0.55
+
+Woodgrain_b2  texfunc  WoodGrain_tex
+6  xgrain_dx ygrain_dx zgrain_dx woodtex.cal -s 0.01
+0
+1  0.075
+# Material modified through a library material named WoodGrain_NonColor from the library Wood.rmlib
+WoodGrain_tex  plastic  Aquarium_wood
+0  
+0
+5  0.35 0.3 0.15 0.005 0.025
+
+
+#~~~~~~~~~Definition for Wood_Cherry_Original~~~~~~~~~~~
+
+void  brightfunc  pattern
+4  ygrain woodpat.cal -s 1
+0
+1  0.8
+# Material modified through a library material named Wood_y_grain_example from the library Wood.rmlib
+pattern  plastic  Wood_Cherry_Original
+0  
+0
+5  0.6 0.25 0.1 0.1 0.08
+
+
+#~~~~~~~~~Definition for Aquarium_feeder~~~~~~~~~~~
+
+void  brightfunc  dusty_med
+4  dirt dirt.cal -s 1
+0
+1  0.25
+# Material modified through a library material named Glavanized_Steel_Medium_Dirty from the library Metals.rmlib
+void  plastic  Aquarium_feeder
+0  
+0
+5  0.6 0.6 0.6 0.3 0.2
+
+
+#~~~~~~~~~Definition for Pool_GlassDoor~~~~~~~~~~~
+
+void  glass  aluminum
+0  
+0
+3  0.65 0.65 0.65
+# Material modified through a library material named Perforations from the library Mod_Geometry.rmlib
+void  mixfunc  Pool_GlassDoor
+6  aluminum void uv_hole perforate.cal -s 0.1
+0
+1  0.4
+
+
+#~~~~~~~~~Definition for Water~~~~~~~~~~~
+
+void  texfunc  puckered
+6  puck_dx puck_dy puck_dz pucker.cal -s 0.2
+0
+1  0.015
+# Material modified through a library material named Water_pucker from the library Water.rmlib
+void  dielectric  Water
+0  
+0
+5  0.75 0.75 0.9 1.33 0.0
+
+
+#~~~~~~~~~Definition for sketchup_default_material~~~~~~~~~~~
+
+void  plastic  sketchup_default_material
+0  
+0
+5  0.5 0.5 0.5 0.0 0.0
+
+
+#~~~~~~~~~Definition for Chair_Cushion~~~~~~~~~~~
+
+void  brightfunc  mod1
+4  dirt dirt.cal -s .06
+0
+1  0.25
+# Material modified through a library material named Carpet from the library Fabric.rmlib
+mod1  plastic  Chair_Cushion
+0  
+0
+5  0.05 0.04 0.09 0.0 0.05
+
+
+#~~~~~~~~~Definition for Pool_Ceiling~~~~~~~~~~~
+
+void  brightfunc  dusty_wide
+4  dirt dirt.cal -s 2
+0
+1  0.25
+# The modifier for this material was replaced by a library material named dusty_wide from the library Mod_Dusty.rmlib
+dusty_wide  plastic  Pool_Ceiling
+0  
+0
+5  0.592111 0.592111 0.592111 0.0 0.0
+
+
+#~~~~~~~~~Definition for Easy_chair_metal~~~~~~~~~~~
+
+void  brightfunc  dusty_med
+4  dirt dirt.cal -s 1
+0
+1  0.25
+# Material modified through a library material named Glavanized_Steel_Dark_Dirty from the library Metals.rmlib
+dusty_med  metal  Easy_chair_metal
+0  
+0
+5  0.5 0.5 0.5 0.3 0.2
+
+
+#~~~~~~~~~Definition for Easy_Chair_Fabric~~~~~~~~~~~
+
+void  brightfunc  Woodgrain_b1
+4  dirt dirt.cal -s 0.008
+0
+1  0.15
+
+Woodgrain_b1  brightfunc  Woodgrain_b2
+4  zgrain woodpat.cal -s 0.016
+0
+1  0.55
+
+Woodgrain_b2  texfunc  WoodGrain_tex
+6  xgrain_dx ygrain_dx zgrain_dx woodtex.cal -s 0.01
+0
+1  0.075
+# Material modified through a library material named WoodGrain_NonColor4 from the library Wood.rmlib
+WoodGrain_tex  plastic  Easy_Chair_Fabric
+0  
+0
+5  0.473 0.339 0.175 0.02 0.0
+
+
+#~~~~~~~~~Definition for AquariumGlass~~~~~~~~~~~
+
+void  dielectric  AquariumGlass
+0  
+0
+5  0.7 0.7 0.7 1.5 0.0
+
+
+#~~~~~~~~~Definition for Grass~~~~~~~~~~~
+
+# Material modified through a library material named Concrete_general_color1 from the library Walls.rmlib
+void  plastic  Grass
+0  
+0
+5  0.6 0.6 0.6 0.0 0.2
+
+
+#~~~~~~~~~Definition for Pool_VerticalTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+4  brick_x brick_y brick_xy brick.cal
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# 
+# 	
+brick_tex  brightfunc  bricks
+2  brick_xy brick.cal
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  Pool_VerticalTile
+0  
+0
+5  0.08 0.08 0.402 0.012 0.01
+
+
+#~~~~~~~~~Definition for Pool_HorizontalTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+6  brick_x brick_y brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# 
+# 	
+brick_tex  brightfunc  bricks
+4  brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  Pool_HorizontalTile
+0  
+0
+5  0.08 0.08 0.402 0.012 0.01
+
+
+#~~~~~~~~~Definition for Wall~~~~~~~~~~~
+
+void  brightfunc  dusty_tight
+4  dirt dirt.cal -s .2
+0
+1  0.25
+# Material modified through a library material named Stucco from the library Walls.rmlib
+dusty_tight  plastic  Wall
+0  
+0
+5  0.592111 0.592111 0.592111 0.0 0.0
+
+
+#~~~~~~~~~Definition for Fish~~~~~~~~~~~
+
+void  antimatter  Fish
+1  AquariumGlass
+0
+0
+
+
+#~~~~~~~~~Definition for AquariumTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+6  brick_x brick_y brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.6 0.4
+# 
+# 	
+brick_tex  brightfunc  bricks
+4  brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.6 0.4
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  AquariumTile
+0  
+0
+5  0.05 0.05 0.102 0.0 0.0
+
+
+#~~~~~~~~~Definition for Pool_SurfaceTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+6  brick_x brick_y brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# 
+# 	
+brick_tex  brightfunc  bricks
+4  brick_xy brick.cal -rx 90
+0
+6  0.01 0.2 0.2 0.0 0.4 0.6
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  Pool_SurfaceTile
+0  
+0
+5  0.08 0.08 0.402 0.012 0.01
+
+
+#~~~~~~~~~Definition for Chair_Table_Metal~~~~~~~~~~~
+
+void  brightfunc  dusty_med
+4  dirt dirt.cal -s 1
+0
+1  0.25
+# Material modified through a library material named Glavanized_Steel_Dark_Dirty from the library Metals.rmlib
+dusty_med  metal  Chair_Table_Metal
+0  
+0
+5  0.5 0.5 0.5 0.3 0.2
+
+
+#~~~~~~~~~Definition for Fencing_Weathered~~~~~~~~~~~
+
+void  plastic  Fencing_Weathered
+0  
+0
+5  0.5 0.5 0.5 0.0 0.0
+
+
+#~~~~~~~~~Definition for Room_Glazing~~~~~~~~~~~
+
+# Material modified through a library material named Smooth_Wire_Reinforced_Glass from the library Glass.rmlib
+void  glass  Room_Glazing
+0  
+0
+3  0.804159 0.99857 0.866106
+
+
+#~~~~~~~~~Definition for Pool_FloorTile~~~~~~~~~~~
+
+void  brightfunc  dusty
+4  dirt dirt.cal -s 2
+0
+1  0.15
+# 
+# 	
+dusty  texfunc  brick_tex
+8  brick_x brick_y brick_xy brick.cal -rx 90 -rz 45
+0
+6  0.01 0.6 0.6 0.0 0.6 0.4
+# 
+# 	
+brick_tex  brightfunc  bricks
+6  brick_xy brick.cal -rx 90 -rz 45
+0
+6  0.01 0.6 0.6 0.0 0.6 0.4
+# Material modified through a library material named Dark_Grey_Tiles from the library Floor.rmlib
+bricks  plastic  Pool_FloorTile
+0  
+0
+5  0.5 0.5 0.5 0.0 0.05
+
+
+#~~~~~~~~~Definition for Ground~~~~~~~~~~~
+
+void  texfunc  texture2
+6  puck_dx puck_dy puck_dz pucker.cal -s 50
+0
+1  0.9
+
+texture2  texfunc  texture
+6  dx dy dz adobe.cal -s 50
+0
+1  0.2
+# Material modified through a library material named Ground from the library Exterior.rmlib
+texture  plastic  Ground
+0  
+0
+5  0.1 0.1 0.1 0.0 0.08

@@ -1,0 +1,18 @@
+void colorpict darbarpic
+15 red green blue ./pics/darbar.pic picture.cal pic_u pic_v  -s 0.72 -t 0.0 0.0 0.0 -rx 0
+0
+1 1
+
+darbarpic plastic pntdarbar
+0
+0
+5 0.7 0.7 0.7 0.1 0.02
+
+pntdarbar polygon darbar
+0 
+0
+12
+0 0 0
+.9144 0 0
+0.9144 0.7315 0
+0 .7315 0

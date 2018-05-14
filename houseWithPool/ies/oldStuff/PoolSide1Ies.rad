@@ -1,0 +1,27 @@
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+#CHANGES/CORRECTIONS(xform): Sep/15 00:54:37: In the line 40Down.rad, addedd ./ in the beginning. New value:./40Down.rad
+
+
+# replmarks -x 40Down.rad PoolSide1
+
+!xform -n f_1_0 -ry -90.000000 -rz -180.000000 -t 11.931449 13.263652 -0.293257 ./40Down.rad
+
+!xform -n f_2_0 -ry -90.000000 -rz -180.000000 -t 11.931449 17.221290 -0.293257 ./40Down.rad
+
+!xform -n f_3_0 -ry -90.000000 -rz -180.000000 -t 11.931449 18.540502 -0.293257 ./40Down.rad
+
+!xform -n f_4_0 -ry -90.000000 -rz -180.000000 -t 11.931449 14.582865 -0.293257 ./40Down.rad
+
+!xform -n f_5_0 -ry -90.000000 -rz -180.000000 -t 11.931449 9.306015 -0.293257 ./40Down.rad
+
+!xform -n f_8_0 -ry -90.000000 -rz -180.000000 -t 11.931449 11.944440 -0.293257 ./40Down.rad
+
+!xform -n f_9_0 -ry -90.000000 -rz -180.000000 -t 11.931449 15.902077 -0.293257 ./40Down.rad
+
+!xform -n f_10_0 -ry -90.000000 -rz -180.000000 -t 11.931449 10.625227 -0.293257 ./40Down.rad
