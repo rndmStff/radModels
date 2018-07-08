@@ -1,0 +1,45 @@
+###  su2rad.rb export  ###
+###  Tue May 22 16:28:48 2018  ###
+[D] ExportOptions.initialize()
+[D] setSketchup()
+[D] setExportOptions() ...
+[V] 'replmarks' found => keeping 'global coords' options
+[V] 'convert' found => keeping 'textures' options
+[D] setRenderOptions() ...
+[D] SketchupViewsList: setting views list ...
+[D] setSkyOptions() ...
+[I] mList rad: setting materials 0 to 200
+[I] mList rad: setting materials 200 to 203
+[I] mList skm: setting materials 0 to 6
+[I] mList layer: setting materials 0 to 1
+[I] Tbleicher::Su2Rad::WebOptionsExport new value for @scenePath: 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/'
+[I] Tbleicher::Su2Rad::WebOptionsExport new value for @textures: false
+[V] TODO: webdialog closed
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/octrees'
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/images'
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/logfiles'
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/ambfiles'
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./skies'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./skies/Boulder_CO_1108_1330.sky'
+[I] 
+[I] OBJECTS:
+[V] exported entities [refs=0, faces=402]
+[I] 
+[I] SCENEFILES:
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects/floor.rad'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects/sketchup_default_material.rad'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects/metalBlinds.rad'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects/pmapPort.rad'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./objects/ceiling.rad'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/unnamed_scene.rad'
+[I] 
+[I] MATERIALS:
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/materials.rad'
+[I] Creating directory 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./views'
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/./views/unnamed_view.vf'
+[3] XXX object file: .
+[3] XXX object file: ..
+[V] created file 'D:/Data/Files/Dropbox/HB_Work/Pmap/radiance/unnamed_scene.rif'
+###  finished: 2018-05-22 16:29:02 +0200  ###
+###  status: running (groups=0, faces=402)  ###

@@ -1,0 +1,9 @@
+!xform ./skies/sunny.sky 
+!xform ./materials.rad
+#!xform ./maps.rad
+
+!xform ./objects/floor.rad
+!xform ./objects/sketchup_default_material.rad
+!xform ./objects/metalBlinds.rad
+!xform ./objects/pmapPort.rad
+!xform ./objects/ceiling.rad

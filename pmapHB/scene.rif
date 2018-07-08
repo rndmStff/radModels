@@ -1,0 +1,30 @@
+# scene options file for rad
+
+QUALITY=     medium
+DETAIL=      medium
+VARIABILITY= high
+INDIRECT=    2
+PENUMBRAS=   true
+
+PICTURE=     images/Untitled
+RESOLUTION=  1560 928
+ZONE=        exterior 0 44.1 0 44.1 0 44.1
+EXPOSURE=    -2
+
+REPORT=      0 logfiles/unnamed_scene.log
+AMBFILE=     ambfiles/unnamed_scene.amb
+OCTREE=      octrees/unnamed_scene.oct
+scene=       unnamed_scene.rad
+
+render=      
+
+oconv=      -w
+
+materials=    materials.rad
+
+view=  unnamed_view -vf ./views/unnamed_view.vf
+
+objects=	./skies/Boulder_CO_1108_1330.sky
+## scene object files (total=5)
+objects=	./objects/ceiling.rad	./objects/floor.rad	./objects/metalBlinds.rad
+objects=	./objects/pmapPort.rad	./objects/sketchup_default_material.rad
